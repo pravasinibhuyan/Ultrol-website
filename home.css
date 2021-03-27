@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500&display=swap');
+
+body
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-size: 100%;
+    font-family: 'Roboto', sans-serif;
+
+}
+#div-heading
+{
+width: 50%;
+background-color: white;
+padding-bottom: 0;
+}
+#logo-img
+{
+    margin-bottom: 10px;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+a:hover
+{
+    
+    text-decoration: none;
+    color: black;
+}
+@media only screen and (max-width: 600px) 
+{
+#div-heading
+    {
+    width: 100%;
+    background-color: white;
+    padding-bottom: 0;
+    font-size: 15px;
+    }
+    #main-heading
+    {
+        font-size: 20px;
+    }
+    #card
+    {
+        padding: 0px;
+        margin: 0px;
+    }
+    .server-card{
+        padding: 0;
+        margin: 0;
+    }
+    .profile-card{
+        width: 10rem;
+    }
+}
+@media only screen and (max-width: 800px) 
+{
+
+    #card
+    {
+       padding: 0px;
+       margin: 0px;
+    }
+    .server-card{
+        padding: 0px;
+       margin: 0px;
+    }
+}
+
+
